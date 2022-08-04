@@ -1,0 +1,85 @@
+.p-speeddial {
+  position: fixed !important;
+  display: flex;
+  z-index: 1;
+  right: 20px;
+  bottom: 20px;
+}
+
+.p-speeddial-button.p-button.p-button-icon-only {
+  width: 3rem !important;
+  height: 3rem !important;
+}
+
+.p-menubar-button {
+  position: absolute;
+  right: 10px;
+}
+
+.p-galleria-thumbnail-container {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.p-galleria .p-galleria-caption {
+  padding: 0.2rem 1rem 0.2rem 1rem !important;
+}
+
+.someStyleClass {
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 998;
+  opacity: 0.9;
+  border-radius: 0px 0px 10px 10px !important;
+}
+
+.p-menubar-root-list {
+  border-radius: 10px;
+}
+
+body{
+  height: 3000px;
+  background-color: #ecf4ff !important;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+// .layout-content {
+//   padding: calc(56px + 2rem) 2rem 2rem;
+// }
+ 
+// @media screen and (max-width: 991px) {
+//  .layout-content {
+//     padding: 2rem;
+//  }
+// }
+
+
+// .p-menubar{
+//   background-color: #333 !important;
+// }
+// .p-menubar-root-list {
+//   background-color: #333 !important;
+// }
+// .p-menuitem-link{
+//   background-color: #333 !important;
+//   outline-width: 0px !important;
+// }
+
+// .p-menuitem-text {
+//   color: white !important;
+// }
+
+
+.p-menuitem-link:hover {
+  background-color: rgb(77, 77, 77) !important;
+}
+
+.p-speeddial-action {
+  text-decoration: none
+}
+
+
