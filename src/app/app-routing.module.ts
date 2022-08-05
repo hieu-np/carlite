@@ -3,6 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomepageComponent } from './views/homepage/homepage.component';
 import { ApplicationComponent } from './views/applicationpage/application/application.component';
 import { MoneyexchangepageComponent } from './views/applicationpage/moneyexchangepage/moneyexchangepage.component';
+import { GoldComponent } from './views/applicationpage/gold/gold.component';
+import { OilComponent } from './views/applicationpage/oil/oil.component';
+
+
 MoneyexchangepageComponent
 const routes: Routes = [
   { path: '', redirectTo: 'trang-chu', pathMatch: 'full' },
@@ -18,9 +22,17 @@ const routes: Routes = [
         path: 'chuyen-doi-tien-te',
         component: MoneyexchangepageComponent,
       },
+      {
+        path: 'gia-vang',
+        component: GoldComponent,
+      },
+      {
+        path: 'gia-xang-dau',
+        component: OilComponent,
+      },
     ],
   },
-  { path: 'cho-khach-lien-tinh', component: HomepageComponent },
+  { path: 'tien', component: HomepageComponent },
 ];
 
 @NgModule({

@@ -40,6 +40,8 @@ import { MoneyexchangepageComponent } from './views/applicationpage/moneyexchang
 import { AllComponent } from './views/service/all/all.component';
 import { TwowayComponent } from './views/service/twoway/twoway.component';
 import { LandComponent } from './views/service/land/land.component';
+import { GoldComponent } from './views/applicationpage/gold/gold.component';
+import { OilComponent } from './views/applicationpage/oil/oil.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -59,6 +61,8 @@ import { LandComponent } from './views/service/land/land.component';
     AllComponent,
     TwowayComponent,
     LandComponent,
+    GoldComponent,
+    OilComponent,
   ],
   imports: [
     BrowserModule,

@@ -73,6 +73,16 @@ export class NavComponent implements OnInit {
             routerLink: 'tien-ich/chuyen-doi-tien-te'
           },
           {
+            label: 'Bảng giá vàng',
+            icon: 'pi pi-chart-bar',
+            routerLink: 'tien-ich/gia-vang'
+          },
+          {
+            label: 'Giá xăng dầu',
+            icon: 'pi pi-comment degoil',
+            routerLink: 'tien-ich/gia-xang-dau'
+          },
+          {
             label: 'Tra cứu thông tin biển số xe',
             icon: 'pi pi-list',
             items: [

@@ -1,0 +1,23 @@
+{
+  "bsx":[
+      {
+          "id": "11",
+          "provinceName": "Cao Bằng",
+          "provinceCode": "04",
+          "district": {
+            "B1": "Thành phố Cao Bằng",
+            "X1": "Thành phố Cao Bằng",
+            "H1": "Huyện Hoà An",
+            "K1": "Huyện Trùng Khánh",
+            "Y1": "Huyện Trùng Khánh",
+            "L1": "Huyện Bảo Lâm",
+            "M1": "Huyện Bảo Lạc",
+            "N1": "Huyện Nguyên Bình",
+            "Z1": "Huyện Hạ Lang",
+            "S1": ""
+
+          }
+      },
+      {}
+  ]
+}
